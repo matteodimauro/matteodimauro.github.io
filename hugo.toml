@@ -1,0 +1,4 @@
+baseURL = "https://matteodimauro.github.io/"
+languageCode = "en"
+title = "Matteo Di Mauro"
+theme = "blowfish"

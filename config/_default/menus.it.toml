@@ -1,0 +1,9 @@
+[[main]]
+name = "Chi sono"
+pageRef = "about"
+weight = 10
+
+[[main]]
+name = "Curriculum"
+pageRef = "cv"
+weight = 20
