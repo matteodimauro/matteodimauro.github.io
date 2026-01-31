@@ -3,21 +3,16 @@ languageCode = "en"
 title = "Matteo Di Mauro"
 theme = "blowfish"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 [languages]
+
   [languages.en]
     languageName = "English"
     weight = 1
     contentDir = "content/en"
-    [languages.en.params]
-      displayName = "EN"
-      isoCode = "en"
 
   [languages.it]
     languageName = "Italiano"
     weight = 2
     contentDir = "content/it"
-    [languages.it.params]
-      displayName = "IT"
-      isoCode = "it"
