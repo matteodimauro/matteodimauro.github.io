@@ -32,26 +32,13 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
-        #run: |
-         # set -euxo pipefail
-         # hugo version
-          #echo "PWD: $(pwd)"
-         # hugo --minify
-
-         # echo "---- public root ----"
-          #ls -la public | sed -n '1,120p'
-
-          #echo "---- public/en ----"
-          #ls -la public/en | sed -n '1,120p' || true
-
-          #echo "---- find index files ----"
-          #find public -maxdepth 2 -type f \( -name "index.html" -o -name "index.xml" \) -print
-
-         # echo "---- assert html exists ----"
-          #test -f public/index.html && echo "OK: public/index.html exists" || (echo "MISSING: public/index.html" && exit 1)
-          #test -f public/en/index.html && echo "OK: public/en/index.html exists" || (echo "MISSING: public/en/index.html" && exit 1)
-
+        #run: hugo --minify
+        run: |
+          set -euxo pipefail
+          hugo --minify
+          echo "---- public root ----"
+          ls -la public | sed -n '1,120p'
+          test -f public/index.html && echo "OK: public/index.html exists" || (echo "MISSING: public/index.html" && exit 1)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
