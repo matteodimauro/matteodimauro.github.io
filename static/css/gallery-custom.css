@@ -16,15 +16,11 @@
   border-radius: 0.4rem;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  background-color: #f9f9f9;
-  padding: 0.35rem;
-  box-sizing: border-box;
 }
 
 .gallery img:hover {
   transform: scale(1.05);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-  background-color: #f0f0f0;
 }
 
 /* Tablet screens */
@@ -36,7 +32,6 @@
 
   .gallery img {
     max-height: 150px;
-    padding: 0.3rem;
   }
 }
 
@@ -49,6 +44,5 @@
 
   .gallery img {
     max-height: 200px;
-    padding: 0.25rem;
   }
 }
