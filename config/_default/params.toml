@@ -13,3 +13,4 @@ showBreadcrumbs = false
 
 [footer]
 showCopyright = false
+showThemeAttribution = false
