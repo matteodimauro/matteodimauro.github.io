@@ -17,8 +17,8 @@
   width: 100% !important;
   height: 100% !important;
   aspect-ratio: 4 / 3 !important;
-  object-fit: contain !important;
-  object-position: center !important;
+  object-fit: cover !important;
+  object-position: 50% 30% !important;
   border-radius: 0.3rem !important;
   cursor: pointer !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease !important;
@@ -36,8 +36,10 @@
 .gallery img.medium-zoom-image--opened {
   max-width: 90vw !important;
   max-height: 90vh !important;
-  object-fit: contain !important;
+  width: auto !important;
+  height: auto !important;
   aspect-ratio: auto !important;
+  object-fit: cover !important;
 }
 
 /* Tablet screens - 3 columns */
