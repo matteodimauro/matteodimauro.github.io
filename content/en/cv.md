@@ -29,3 +29,17 @@ Catania • Oct, 2017 - Nov, 2020
 - Designed experimentation and scenario-testing frameworks for evaluation.
 - Contributed to global standards across teams.
 - Selected for the Allianz Talent Program.
+
+**Deloitte** — Remote  
+**Analyst** | Jan, 2023 - June, 2023
+
+- Part of the Digital AI Controls Algorithm (DAICA) team.
+- Developed and implemented machine learning models for algorithmic control and optimization.
+- Worked on data analysis and model validation processes.
+
+**Engineering ingegneria informatica spa** — Rome  
+**Advanced Analytics & AI** | May, 2022 - Sept, 2022
+
+- Thesis project for Master of Science in Data Science.
+- Developed advanced analytics and AI solutions.
+- Worked on predictive modeling and data-driven insights.

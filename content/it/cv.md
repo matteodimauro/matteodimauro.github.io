@@ -29,3 +29,17 @@ Catania • Ott, 2017 - Nov, 2020
 - Ho progettato framework per la sperimentazione e il test di scenari per la valutazione.
 - Ho contribuito agli standard globali tra i team.
 - Selezionato per l'Allianz Talent Program.
+
+**Deloitte** — Remoto  
+**Analyst** | Gen, 2023 - Giugno, 2023
+
+- Membro del team Digital AI Controls Algorithm (DAICA).
+- Ho sviluppato e implementato modelli di machine learning per il controllo algoritmico e l'ottimizzazione.
+- Ho lavorato su processi di analisi dati e validazione dei modelli.
+
+**Engineering ingegneria informatica spa** — Roma  
+**Advanced Analytics & AI** | Maggio, 2022 - Sett, 2022
+
+- Progetto di tesi per il Master of Science in Data Science.
+- Ho sviluppato soluzioni di advanced analytics e AI.
+- Ho lavorato su modellazione predittiva e insight basati sui dati.
