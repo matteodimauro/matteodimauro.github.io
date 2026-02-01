@@ -5,4 +5,4 @@ translationKey: "home"
 outputs: ["HTML"]
 ---
 
-Risolvo problemi.
+Risolvo problemi
