@@ -5,4 +5,4 @@ translationKey: "home"
 outputs: ["HTML"]
 ---
 
-Benvenuto nel mio portfolio.
+Risolvo problemi.
