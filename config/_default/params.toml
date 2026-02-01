@@ -2,9 +2,14 @@ colorScheme = "blowfish"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 showLanguageSwitcher = true
+enableSearch = false
 
 [article]
 showDate = false
 showDateUpdated = false
 showReadingTime = false
 showWordCount = false
+showBreadcrumbs = false
+
+[footer]
+showCopyright = false
