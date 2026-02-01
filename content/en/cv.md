@@ -30,7 +30,7 @@ Catania • Oct, 2017 - Nov, 2020
 - Contributed to global standards across teams.
 - Selected for the Allianz Talent Program.
 
-**Deloitte** — Remote  
+**Deloitte** — Rome  
 **Analyst** | Jan, 2023 - June, 2023
 
 - Part of the Digital AI Controls Algorithm (DAICA) team.
@@ -41,5 +41,5 @@ Catania • Oct, 2017 - Nov, 2020
 **Advanced Analytics & AI** | May, 2022 - Sept, 2022
 
 - Thesis project for Master of Science in Data Science.
-- Developed advanced analytics and AI solutions.
-- Worked on predictive modeling and data-driven insights.
+- Developed deep learning models using neural networks for facial expression recognition via facial feature keypoints.
+- Implemented computer vision solutions for real-world applications.
