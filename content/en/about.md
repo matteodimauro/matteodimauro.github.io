@@ -1,3 +1,3 @@
 ---
-title: "Chi sono"
+title: "About me"
 ---
