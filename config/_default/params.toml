@@ -11,6 +11,9 @@ showReadingTime = false
 showWordCount = false
 showBreadcrumbs = false
 
+[projects]
+showDate = false
+
 [footer]
 showCopyright = false
 showThemeAttribution = false
