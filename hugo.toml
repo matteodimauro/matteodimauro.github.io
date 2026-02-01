@@ -3,7 +3,7 @@ languageCode = "en"
 title = "Matteo Di Mauro"
 theme = "blowfish"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [languages]
 
