@@ -17,7 +17,7 @@ At the University of Catania, I discovered computer science. More than just lear
 {{< gallery >}}
 <img src="/images/about/catania-university/1.jpg" alt="Catania University 1">
 <img src="/images/about/catania-university/2.jpg" alt="Catania University 2">
-<img src="/images/about/catania-university/3.jpg" alt="Catania University 3" class="shift-up">
+<img src="/images/about/catania-university/3.jpg" alt="Catania University 3">
 {{< /gallery >}}
 
 ## The Rome Chapter: Masters, Internships & First Full-Time Role
