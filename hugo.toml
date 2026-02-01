@@ -11,8 +11,12 @@ defaultContentLanguageInSubdir = true
     languageName = "English"
     weight = 1
     contentDir = "content/en"
+    [languages.en.params]
+      displayName = "EN"
 
   [languages.it]
     languageName = "Italiano"
     weight = 2
     contentDir = "content/it"
+    [languages.it.params]
+      displayName = "IT"
