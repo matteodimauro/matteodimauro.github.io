@@ -38,31 +38,35 @@
       {{ end }}
     </div>
   </body>
-  <!-- Disable Packery masonry for gallery -->
+  <!-- Disable Packery masonry and medium-zoom for gallery -->
   <script>
     // Immediately disable Packery before it loads
     window.Packery = null;
-    // When Packery library loads, override it
     Object.defineProperty(window, 'Packery', {
       set: function() {},
       get: function() { return null; }
     });
-    // Also remove it from jQuery if present
     if (window.jQuery) {
       jQuery.fn.imagesLoaded = function() { return this; };
     }
     
-    // Disable medium-zoom for gallery images
-    window.addEventListener('load', function() {
-      document.querySelectorAll('.gallery img').forEach(function(img) {
-        // Remove the medium-zoom-image class if it was added
-        img.classList.remove('medium-zoom-image');
-        // Unbind any zoom events
-        if (img.dispatchEvent) {
-          img.style.cursor = 'default';
+    // Override medium-zoom to disable it for gallery images
+    var originalMediumZoom = window.mediumZoom;
+    window.mediumZoom = function(selector, options) {
+      if (typeof selector === 'string') {
+        // If selecting gallery images, return a no-op object
+        if (selector.includes('.gallery')) {
+          return {
+            attach: function() { return this; },
+            detach: function() { return this; },
+            on: function() { return this; },
+            off: function() { return this; }
+          };
         }
-      });
-    });
+      }
+      // For non-gallery selectors, use the original
+      return originalMediumZoom ? originalMediumZoom(selector, options) : this;
+    };
   </script>
   <script src="/js/disable-packery.js"></script>
   {{ if site.Params.buymeacoffee.globalWidget | default false }}
