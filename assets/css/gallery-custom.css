@@ -55,7 +55,7 @@
 }
 
 /* Shift third image in catania gallery higher */
-.gallery img:nth-of-type(3) {
+.gallery img.shift-up {
   object-position: 50% 5% !important;
 }
 
