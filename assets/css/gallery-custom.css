@@ -55,8 +55,8 @@
 }
 
 /* Shift third image in catania gallery higher */
-.gallery:nth-of-type(1) img:nth-child(3) {
-  object-position: 50% 2% !important;
+.gallery img:nth-of-type(3) {
+  object-position: 50% 5% !important;
 }
 
 /* Tablet screens - 3 columns */
