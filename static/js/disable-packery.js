@@ -1,26 +1,30 @@
-// Override Packery masonry layout with CSS Grid
-(function disablePackery() {
-  // Prevent Packery from running
-  if (typeof Packery !== 'undefined') {
-    // Disable Packery by preventing its initialization
-    window.Packery = null;
-  }
+// Force disable Packery and apply CSS Grid layout
+(function() {
+  // Completely kill Packery
+  window.Packery = null;
   
-  // Also wait for window load and prevent any Packery execution
+  // When page loads, clean up any Packery instances
   window.addEventListener('load', function() {
-    // Clear any existing Packery instances
+    // Remove all Packery styling
     document.querySelectorAll('.gallery').forEach(function(gallery) {
-      // Remove any inline styles added by Packery
-      if (gallery.style.position) {
-        gallery.style.position = null;
-      }
-      gallery.querySelectorAll('.gallery-item, [class*="gallery"] img').forEach(function(item) {
-        item.style.position = null;
-        item.style.left = null;
-        item.style.top = null;
-        item.style.width = null;
-        item.style.height = null;
+      gallery.style.position = '';
+      gallery.style.width = '';
+      gallery.style.height = '';
+      
+      // Clean gallery items
+      Array.from(gallery.children).forEach(function(item) {
+        item.style.position = '';
+        item.style.left = '';
+        item.style.top = '';
+        item.style.width = '';
+        item.style.height = '';
       });
     });
   }, true);
+  
+  // Also try to intercept the jQuery plugin registration
+  if (window.jQuery) {
+    window.jQuery.fn.imagesLoaded = function() { return this; };
+  }
 })();
+

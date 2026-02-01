@@ -39,9 +39,20 @@
     </div>
   </body>
   <!-- Disable Packery masonry for gallery -->
-  {{ if (.Site.Home.HasShortcode "gallery") }}
-  <script src="/js/disable-packery.js" defer></script>
-  {{ end }}
+  <script>
+    // Immediately disable Packery before it loads
+    window.Packery = null;
+    // When Packery library loads, override it
+    Object.defineProperty(window, 'Packery', {
+      set: function() {},
+      get: function() { return null; }
+    });
+    // Also remove it from jQuery if present
+    if (window.jQuery) {
+      jQuery.fn.imagesLoaded = function() { return this; };
+    }
+  </script>
+  <script src="/js/disable-packery.js"></script>
   {{ if site.Params.buymeacoffee.globalWidget | default false }}
     <script
       data-name="BMC-Widget"
