@@ -90,7 +90,7 @@
     {{/* Back to Projects Button - Add if this is a project */}}
     {{ if eq .Section "projects" }}
       <div class="mt-8 max-w-prose print:hidden">
-        <a href="{{ .CurrentSection.RelPermalink }}" class="inline-flex items-center gap-2 rounded bg-primary-500 px-4 py-2 text-sm font-medium text-neutral dark:bg-primary-400 dark:text-neutral-900 hover:bg-primary-600 dark:hover:bg-primary-300">
+        <a href="{{ .CurrentSection.RelPermalink }}" class="inline-flex items-center gap-2 rounded bg-neutral-200 px-4 py-2 text-sm font-medium text-neutral-900 dark:bg-neutral-700 dark:text-neutral-200 hover:bg-neutral-300 dark:hover:bg-neutral-600 transition-colors">
           <span>←</span>
           <span>{{ i18n "back_to_projects" }}</span>
         </a>
