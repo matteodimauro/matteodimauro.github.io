@@ -15,9 +15,9 @@ I was born and raised in Catania, Sicily—a place where Mediterranean warmth me
 At the University of Catania, I discovered computer science. More than just learning to code, I learned how to think algorithmically and break down complex problems into manageable pieces. These years were about foundation-building—understanding data structures, algorithms, and the fundamentals that would shape my entire career. It was here I realized my passion lay at the intersection of computing and problem-solving.
 
 {{< gallery >}}
-<img src="../images/about/catania-university/1.jpg" alt="Catania University 1">
-<img src="../images/about/catania-university/2.jpg" alt="Catania University 2">
-<img src="../images/about/catania-university/3.jpg" alt="Catania University 3">
+<img src="/images/about/catania-university/1.jpg" alt="Catania University 1">
+<img src="/images/about/catania-university/2.jpg" alt="Catania University 2">
+<img src="/images/about/catania-university/3.jpg" alt="Catania University 3">
 {{< /gallery >}}
 
 ## The Rome Chapter: Masters, Internships & First Full-Time Role
@@ -27,12 +27,12 @@ After completing my Bachelor's, I moved to Rome for my Master's degree at Sapien
 My first serious full-time position also came in Rome at Allianz SE, where I worked as a Pricing Analyst and Applied Data Scientist. This was transformational—moving from project-based work to owning models in production, managing stakeholder expectations, and contributing to strategic business decisions. Here, I learned the difference between building a model and building a model that drives real value.
 
 {{< gallery >}}
-<img src="../images/about/rome-period/1.jpg" alt="Rome Period 1">
-<img src="../images/about/rome-period/2.jpg" alt="Rome Period 2">
-<img src="../images/about/rome-period/3.jpg" alt="Rome Period 3">
-<img src="../images/about/allianz-rome/1.jpg" alt="Allianz Rome 1">
-<img src="../images/about/allianz-rome/2.jpg" alt="Allianz Rome 2">
-<img src="../images/about/allianz-rome/3.jpg" alt="Allianz Rome 3">
+<img src="/images/about/rome-period/1.jpg" alt="Rome Period 1">
+<img src="/images/about/rome-period/2.jpg" alt="Rome Period 2">
+<img src="/images/about/rome-period/3.jpg" alt="Rome Period 3">
+<img src="/images/about/allianz-rome/1.jpg" alt="Allianz Rome 1">
+<img src="/images/about/allianz-rome/2.jpg" alt="Allianz Rome 2">
+<img src="/images/about/allianz-rome/3.jpg" alt="Allianz Rome 3">
 {{< /gallery >}}
 
 ## Expansion & Talent Program: Master's in Milano
@@ -40,9 +40,9 @@ My first serious full-time position also came in Rome at Allianz SE, where I wor
 Pursuing my second Master's degree at Politecnico di Milano introduced me to big data at scale. As part of this journey, I participated in an exclusive talent program that accelerated my growth in machine learning and data engineering, exposing me to cutting-edge industry practices and connecting me with leading tech professionals. Milano's tech ecosystem was energizing—a hub of innovation where I refined my expertise in advanced techniques and learned how to think bigger, scale faster, and tackle problems with more rigor and sophistication.
 
 {{< gallery >}}
-<img src="../images/about/milano/1.jpg" alt="Milano 1">
-<img src="../images/about/milano/2.jpg" alt="Milano 2">
-<img src="../images/about/milano/3.jpg" alt="Milano 3">
+<img src="/images/about/milano/1.jpg" alt="Milano 1">
+<img src="/images/about/milano/2.jpg" alt="Milano 2">
+<img src="/images/about/milano/3.jpg" alt="Milano 3">
 {{< /gallery >}}
 
 ## Current Chapter: London & Allianz UK
@@ -50,9 +50,9 @@ Pursuing my second Master's degree at Politecnico di Milano introduced me to big
 Now based in London as a Senior Pricing Analyst in Applied Analytics, I've stepped into a more senior role where I own the entire lifecycle of machine learning models used to guide operational decisions. London has taught me international perspectives, agility in navigating diverse teams, and the impact of taking broader ownership. Every day, I balance technical excellence with business impact, working to ensure our models don't just perform well—they create value.
 
 {{< gallery >}}
-<img src="../images/about/london/1.jpg" alt="London 1">
-<img src="../images/about/london/2.jpg" alt="London 2">
-<img src="../images/about/london/3.jpg" alt="London 3">
+<img src="/images/about/london/1.jpg" alt="London 1">
+<img src="/images/about/london/2.jpg" alt="London 2">
+<img src="/images/about/london/3.jpg" alt="London 3">
 {{< /gallery >}}
 
 ---
