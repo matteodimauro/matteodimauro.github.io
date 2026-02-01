@@ -1,7 +1,6 @@
 ---
 title: "Progetto 1"
 summary: "Una riga chiara su cosa fa."
-date: 2026-01-30
 draft: false
 ---
 
