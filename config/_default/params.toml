@@ -1,4 +1,10 @@
 colorScheme = "blowfish"
-defaultAppearance = "light"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
 showLanguageSwitcher = true
+
+[article]
+showDate = false
+showDateUpdated = false
+showReadingTime = false
+showWordCount = false
