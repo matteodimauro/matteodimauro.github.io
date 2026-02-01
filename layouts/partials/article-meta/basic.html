@@ -1,0 +1,70 @@
+{{/* Determine the correct context and scope */}}
+{{/* This allows for different logic depending on where the partial is called */}}
+{{ $context := . }}
+{{ $scope := default nil }}
+
+{{ if (reflect.IsMap . ) }}
+  {{ $context = .context }}
+  {{ $scope = cond (not .scope) nil .scope }}
+{{ end }}
+
+{{ with $context }}
+  {{ $meta := newScratch }}
+
+  {{/* Gather partials for this context */}}
+  {{ $shouldShowDate := false }}
+  
+  {{/* Disable date for projects section */}}
+  {{ if eq (index .Type 0) "projects" }}
+    {{ $shouldShowDate = false }}
+  {{ else if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
+    {{ $shouldShowDate = true }}
+  {{ else }}
+    {{ $shouldShowDate = false }}
+  {{ end }}
+
+  {{ if (.Params.showDateOnlyInArticle | default (.Site.Params.article.showDateOnlyInArticle | default false)) }}
+    {{ if (ne $scope "single") }}
+      {{/* only takes effect when not called directly in the header of single.html */}}
+      {{ $shouldShowDate = false }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $shouldShowDate }}
+    {{ $meta.Add "partials" (slice (partial "meta/date.html" .Date)) }}
+  {{ end }}
+
+  {{ if and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default false)) (ne (partial
+    "functions/date.html" .Date) (partial "functions/date.html" .Lastmod)) (gt (.Lastmod | time.Format "2006") 1)
+  }}
+    {{ $meta.Add "partials" (slice (partial "meta/date-updated.html" .Lastmod)) }}
+  {{ end }}
+
+  {{ if and (.Params.showWordCount | default (.Site.Params.article.showWordCount | default false)) (ne .WordCount 0) }}
+    {{ $meta.Add "partials" (slice (partial "meta/word-count.html" .)) }}
+  {{ end }}
+
+  {{ if and (.Params.showReadingTime | default (.Site.Params.article.showReadingTime | default true)) (ne .ReadingTime 0) }}
+    {{ $meta.Add "partials" (slice (partial "meta/reading-time.html" .)) }}
+  {{ end }}
+
+  {{ if and (not .Params.externalURL) (.Params.showViews | default (.Site.Params.article.showViews | default false)) }}
+    {{ $meta.Add "partials" (slice (partial "meta/views.html" .)) }}
+  {{ end }}
+
+  {{ if and (not .Params.externalURL) (.Params.showLikes | default (.Site.Params.article.showLikes | default false)) }}
+    {{ $meta.Add "partials" (slice (partial "meta/likes.html" .)) }}
+  {{ end }}
+
+  {{ if templates.Exists "partials/extend-article-meta-basic.html" }}
+    {{ partial "extend-article-meta-basic.html" (dict "context" $context "meta" $meta "scope" $scope) }}
+  {{ end }}
+
+  {{/* Render the collected partials */}}
+  <span class="not-prose">
+    {{ range $meta.Get "partials" }}
+      {{ . | safeHTML }}
+    {{ end }}
+  </span>
+
+{{ end }}
