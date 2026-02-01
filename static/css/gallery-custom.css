@@ -55,7 +55,7 @@
 
 /* Shift third image in catania gallery higher */
 .gallery img.shift-up {
-  object-position: 50% 5%;
+  object-position: 50% 40%;
 }
 
 /* Tablet screens - 3 columns */
