@@ -13,6 +13,7 @@ showBreadcrumbs = false
 
 [projects]
 showDate = false
+groupByYear = false
 
 [footer]
 showCopyright = false
