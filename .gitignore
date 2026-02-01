@@ -6,3 +6,6 @@ resources/
 # OS / editor
 .DS_Store
 .vscode/
+
+# Images for about page (personal photos)
+static/images/about/
