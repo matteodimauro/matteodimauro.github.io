@@ -1,4 +1,4 @@
 ---
 title: "Progetti"
-groupByYear: false
+groupByYear: "false"
 ---
