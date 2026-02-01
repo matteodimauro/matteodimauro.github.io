@@ -1,3 +1,4 @@
 ---
 title: "Progetti"
+groupByYear: false
 ---
