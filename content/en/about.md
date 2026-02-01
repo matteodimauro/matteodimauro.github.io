@@ -10,37 +10,25 @@ Data scientist with 3+ years of experience in applied machine learning and analy
 
 I was born and raised in Catania, Sicily—a place where Mediterranean warmth meets strong family values. Growing up here shaped my curiosity about how things work and my drive to solve problems methodically. The city's blend of history and modernity taught me to appreciate both tradition and innovation. It's where I developed my passion for understanding complex systems and my commitment to continuous learning.
 
-{{< gallery match="images/about/catania/*" sortOrder="desc" rowHeight="250" margins="5" thumbnailResizeOptions="300x300 q80" showExif=false showDate=false >}}
-
 ## First Steps: University of Catania
 
 At the University of Catania, I discovered computer science. More than just learning to code, I learned how to think algorithmically and break down complex problems into manageable pieces. These years were about foundation-building—understanding data structures, algorithms, and the fundamentals that would shape my entire career. It was here I realized my passion lay at the intersection of computing and problem-solving.
-
-{{< gallery match="images/about/catania-university/*" sortOrder="desc" rowHeight="250" margins="5" thumbnailResizeOptions="300x300 q80" showExif=false showDate=false >}}
 
 ## The Rome Chapter: Masters & First Internships
 
 After completing my Bachelor's, I moved to Rome for my Master's degree at Sapienza. Rome represented a new chapter—more independence, more possibilities, and my first real exposure to professional environments. During these years, I completed my first two internships here, diving into real-world data science problems. It was in Rome where I transitioned from theory to practice, learning how to communicate insights to stakeholders and navigate the complexities of applied machine learning in business contexts.
 
-{{< gallery match="images/about/rome-period/*" sortOrder="desc" rowHeight="250" margins="5" thumbnailResizeOptions="300x300 q80" showExif=false showDate=false >}}
-
 ## Professional Foundation: First Full-Time Role at Allianz SE
 
 My first serious full-time position came in Rome at Allianz SE, where I worked as a Pricing Analyst and Applied Data Scientist. This was transformational—moving from project-based work to owning models in production, managing stakeholder expectations, and contributing to strategic business decisions. Here, I learned the difference between building a model and building a model that drives real value. The experience grounded me in data governance, production stability, and business acumen.
-
-{{< gallery match="images/about/allianz-rome/*" sortOrder="desc" rowHeight="250" margins="5" thumbnailResizeOptions="300x300 q80" showExif=false showDate=false >}}
 
 ## Expansion: Master's in Milano
 
 Pursuing my second Master's degree at Politecnico di Milano introduced me to big data at scale. Milano's tech ecosystem was energizing—a hub of innovation where I refined my expertise in advanced machine learning and data engineering. This wasn't just about technical deepening; it was about understanding how to think bigger, scale faster, and tackle problems with more rigor and sophistication.
 
-{{< gallery match="images/about/milano/*" sortOrder="desc" rowHeight="250" margins="5" thumbnailResizeOptions="300x300 q80" showExif=false showDate=false >}}
-
 ## Current Chapter: London & Allianz UK
 
 Now based in London as a Senior Pricing Analyst in Applied Analytics, I've stepped into a more senior role where I own the entire lifecycle of machine learning models used to guide operational decisions. London has taught me international perspectives, agility in navigating diverse teams, and the impact of taking broader ownership. Every day, I balance technical excellence with business impact, working to ensure our models don't just perform well—they create value.
-
-{{< gallery match="images/about/london/*" sortOrder="desc" rowHeight="250" margins="5" thumbnailResizeOptions="300x300 q80" showExif=false showDate=false >}}
 
 ---
 
