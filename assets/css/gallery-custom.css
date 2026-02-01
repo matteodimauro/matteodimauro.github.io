@@ -18,7 +18,7 @@
   height: 100% !important;
   aspect-ratio: 4 / 3 !important;
   object-fit: cover !important;
-  object-position: top center !important;
+  object-position: bottom left !important;
   border-radius: 0.3rem !important;
   cursor: pointer !important;
   transition: transform 0.2s ease, box-shadow 0.2s ease !important;
@@ -30,6 +30,14 @@
 .gallery img:hover {
   transform: scale(1.03) !important;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Fix medium-zoom for gallery images */
+.gallery img.medium-zoom-image--opened {
+  max-width: 90vw !important;
+  max-height: 90vh !important;
+  object-fit: contain !important;
+  aspect-ratio: auto !important;
 }
 
 /* Tablet screens - 3 columns */
