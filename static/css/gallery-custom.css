@@ -33,9 +33,24 @@
 }
 
 /* Disable medium-zoom for gallery images entirely */
+.gallery {
+  pointer-events: auto;
+}
+
 .gallery img {
   -webkit-user-select: none;
   user-select: none;
+  pointer-events: auto;
+  cursor: default;
+}
+
+.gallery img.medium-zoom-image {
+  cursor: default;
+}
+
+/* Override medium-zoom overlay */
+.medium-zoom-overlay {
+  display: none !important;
 }
 
 /* Tablet screens - 3 columns */

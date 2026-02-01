@@ -51,6 +51,18 @@
     if (window.jQuery) {
       jQuery.fn.imagesLoaded = function() { return this; };
     }
+    
+    // Disable medium-zoom for gallery images
+    window.addEventListener('load', function() {
+      document.querySelectorAll('.gallery img').forEach(function(img) {
+        // Remove the medium-zoom-image class if it was added
+        img.classList.remove('medium-zoom-image');
+        // Unbind any zoom events
+        if (img.dispatchEvent) {
+          img.style.cursor = 'default';
+        }
+      });
+    });
   </script>
   <script src="/js/disable-packery.js"></script>
   {{ if site.Params.buymeacoffee.globalWidget | default false }}
