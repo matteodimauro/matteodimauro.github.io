@@ -1,46 +1,65 @@
-/* Custom gallery styling for compact responsive grid */
+/* Custom gallery styling - tight 4-column grid with uniform aspect ratio crop */
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
-  width: 100%;
-  margin: 2rem 0;
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 0.3rem !important;
+  width: 100% !important;
+  margin: 1.5rem 0 !important;
+  padding: 0 !important;
+}
+
+.gallery * {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .gallery img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: 4 / 3 !important;
+  object-fit: cover !important;
+  object-position: top center !important;
+  border-radius: 0.3rem !important;
+  cursor: pointer !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  display: block !important;
+  line-height: 0 !important;
+  position: static !important;
 }
 
 .gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: scale(1.03) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
 }
 
-/* Medium screens */
+/* Tablet screens - 3 columns */
+@media (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0.3rem !important;
+  }
+}
+
+/* Small tablet/landscape phone - 2 columns */
 @media (max-width: 768px) {
   .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 0.75rem;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.25rem !important;
   }
 
   .gallery img {
-    height: 150px;
+    aspect-ratio: 4 / 3 !important;
   }
 }
 
-/* Small screens */
+/* Mobile screens - 2 columns */
 @media (max-width: 480px) {
   .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.2rem !important;
   }
 
   .gallery img {
-    height: 120px;
+    aspect-ratio: 4 / 3 !important;
   }
 }
