@@ -3,6 +3,16 @@ public/
 resources/
 .hugo_build.lock
 
+# Image folders with personal photos
+content/images/about/catania/
+content/images/about/catania-university/
+content/images/about/roma/
+content/images/about/rome-period/
+content/images/about/allianz-rome/
+content/images/about/milano/
+content/images/about/londra/
+content/images/about/london/
+
 # OS / editor
 .DS_Store
 .vscode/
