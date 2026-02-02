@@ -32,6 +32,7 @@ My first serious full-time position also came in Rome at Allianz SE, where I wor
 <img src="/images/about/rome-period/2.jpg" alt="Rome Period 2">
 <img src="/images/about/rome-period/3.jpg" alt="Rome Period 3">
 <img src="/images/about/rome-period/4.jpg" alt="Rome Graduation">
+<img src="/images/about/rome-period/5.jpg" alt="Rome Period 5">
 <img src="/images/about/allianz-rome/1.jpg" alt="Allianz Rome 1">
 <img src="/images/about/allianz-rome/2.jpg" alt="Allianz Rome 2">
 <img src="/images/about/allianz-rome/3.jpg" alt="Allianz Rome 3">
@@ -57,6 +58,7 @@ Now based in London as a Senior Pricing Analyst in Applied Analytics, I've stepp
 <img src="/images/about/london/1.jpg" alt="London 1">
 <img src="/images/about/london/2.jpg" alt="London 2">
 <img src="/images/about/london/3.jpg" alt="London 3">
+<img src="/images/about/london/4.jpg" alt="London 4">
 {{< /gallery >}}
 
 ---

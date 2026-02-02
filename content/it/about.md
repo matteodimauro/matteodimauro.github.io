@@ -32,6 +32,7 @@ La mia prima seria posizione full-time è arrivata anche a Roma presso Allianz S
 <img src="/images/about/rome-period/2.jpg" alt="Roma 2">
 <img src="/images/about/rome-period/3.jpg" alt="Roma 3">
 <img src="/images/about/rome-period/4.jpg" alt="Roma Laurea">
+<img src="/images/about/rome-period/5.jpg" alt="Roma 5">
 <img src="/images/about/allianz-rome/1.jpg" alt="Allianz Roma 1">
 <img src="/images/about/allianz-rome/2.jpg" alt="Allianz Roma 2">
 <img src="/images/about/allianz-rome/3.jpg" alt="Allianz Roma 3">
@@ -57,6 +58,7 @@ Ora con sede a Londra come Senior Pricing Analyst in Applied Analytics, ho assun
 <img src="/images/about/london/1.jpg" alt="Londra 1">
 <img src="/images/about/london/2.jpg" alt="Londra 2">
 <img src="/images/about/london/3.jpg" alt="Londra 3">
+<img src="/images/about/london/4.jpg" alt="Londra 4">
 {{< /gallery >}}
 
 ---
