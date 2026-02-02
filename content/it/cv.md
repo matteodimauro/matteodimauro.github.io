@@ -43,3 +43,7 @@ Catania • Ott, 2017 - Nov, 2020
 - Progetto di tesi per il Master of Science in Data Science.
 - Ho sviluppato modelli di deep learning usando reti neurali per riconoscere le espressioni facciali tramite i keypoint delle feature facciali.
 - Ho implementato soluzioni di computer vision per applicazioni real-world.
+
+---
+
+Se desideri ricevere una copia in PDF del mio CV, ti prego di contattarmi a matteo.dm@live.com
