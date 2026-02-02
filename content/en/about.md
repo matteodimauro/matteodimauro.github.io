@@ -13,7 +13,11 @@ I care about usefulness more than elegance.
 I was born and raised in Catania, Sicily.
 Growing up there shaped my curiosity about how things work and my way of approaching problems step by step.
 It’s where I first got into computers, an interest that later turned into a clear decision: studying Computer Science at the University of Catania.
-
+{{< gallery >}}
+<img src="/images/about/catania/IMG_7588.jpg" alt="Catania 1">
+<img src="/images/about/catania/IMG_7589.jpg" alt="Catania 2">
+<img src="/images/about/catania/etna_da_mare.jpg" alt="Etna from the sea">
+{{< /gallery >}}
 ## First Steps: University of Catania
 
 At the University of Catania, I studied Computer Science.

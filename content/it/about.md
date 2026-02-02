@@ -13,7 +13,11 @@ Mi interessa più l’utilità che l’eleganza.
 Sono nato e cresciuto a Catania, in Sicilia.
 Crescere lì ha influenzato la mia curiosità per il funzionamento delle cose e il mio modo di affrontare i problemi, passo dopo passo.
 È lì che mi sono avvicinato per la prima volta ai computer, un interesse che si è poi trasformato in una scelta chiara: iscrivermi al corso di laurea in Informatica all’Università di Catania.
-
+{{< gallery >}}
+<img src="/images/about/catania/IMG_7588.jpg" alt="Catania 1">
+<img src="/images/about/catania/IMG_7589.jpg" alt="Catania 2">
+<img src="/images/about/catania/etna_da_mare.jpg" alt="Etna dal mare">
+{{< /gallery >}}
 ## I Miei Inizi: Università di Catania
 
 All’Università di Catania ho studiato Informatica.
