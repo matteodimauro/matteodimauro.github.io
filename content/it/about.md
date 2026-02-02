@@ -17,6 +17,7 @@ Crescere lì ha influenzato la mia curiosità per il funzionamento delle cose e 
 <img src="/images/about/catania/IMG_7588.jpg" alt="Catania 1">
 <img src="/images/about/catania/IMG_7589.jpg" alt="Catania 2">
 <img src="/images/about/catania/etna_da_mare.jpg" alt="Etna dal mare">
+<img src="/images/about/catania/IMG_7294.jpg" alt="Catania 3">
 {{< /gallery >}}
 ## I Miei Inizi: Università di Catania
 
