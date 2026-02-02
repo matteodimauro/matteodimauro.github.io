@@ -45,6 +45,7 @@ Pursuing my second Master's degree at Politecnico di Milano introduced me to big
 <img src="/images/about/milano/1.jpg" alt="Milano 1">
 <img src="/images/about/milano/2.jpg" alt="Milano 2">
 <img src="/images/about/milano/3.jpg" alt="Milano 3">
+<img src="/images/about/milano/4.jpg" alt="Milano Unicredit">
 {{< /gallery >}}
 
 ## Current Chapter: London & Allianz UK
