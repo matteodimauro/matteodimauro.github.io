@@ -2,17 +2,23 @@
 title: "Chi sono"
 ---
 
-Data scientist con oltre 3 anni di esperienza in machine learning applicato e analytics presso grandi organizzazioni multinazionali. Attivamente coinvolto nel supporto decisionale strategico, traducendo gli output dei modelli in insight utilizzati per la pianificazione strategica, il monitoraggio delle performance e il supporto alle decisioni degli stakeholder. Esperto in pipeline Python e SQL, feature engineering e sperimentazione.
+Sono un data scientist orientato al problem solving.
+Lavoro con dati e analisi per supportare decisioni reali, non solo per costruire modelli.
+Mi interessa più l’utilità che l’eleganza.
 
 ---
 
 ## Le Radici: Crescere a Catania
 
-Sono nato e cresciuto a Catania, in Sicilia—un luogo dove il calore del Mediterraneo incontra valori familiari forti. Crescere qui ha plasmato la mia curiosità su come funzionano le cose e la mia determinazione nel risolvere i problemi metodicamente. Il mix di storia e modernità della città mi ha insegnato ad apprezzare sia la tradizione che l'innovazione. È qui che ho sviluppato la mia passione per la comprensione dei sistemi complessi e il mio impegno verso l'apprendimento continuo.
+Sono nato e cresciuto a Catania, in Sicilia.
+Crescere lì ha influenzato la mia curiosità per il funzionamento delle cose e il mio modo di affrontare i problemi, passo dopo passo.
+È lì che mi sono avvicinato per la prima volta ai computer, un interesse che si è poi trasformato in una scelta chiara: iscrivermi al corso di laurea in Informatica all’Università di Catania.
 
 ## I Miei Inizi: Università di Catania
 
-All'Università di Catania ho scoperto l'informatica. Più che imparare a programmare, ho imparato a pensare algoritmicamente e a scomporre problemi complessi in pezzi gestibili. Questi anni riguardavano la costruzione di fondamenta solide—comprendere strutture dati, algoritmi e i principi fondamentali che avrebbero plasmato l'intera mia carriera. È qui che mi sono reso conto che la mia passione risiedeva all'intersezione tra l'informatica e la risoluzione dei problemi.
+All’Università di Catania ho studiato Informatica.
+Quegli anni sono stati dedicati alla costruzione delle basi: imparare a ragionare in modo algoritmico, scomporre problemi complessi e affrontarli con metodo.
+Gli studi su strutture dati, algoritmi e fondamenti della programmazione hanno plasmato il modo in cui affronto ancora oggi i problemi tecnici.
 
 {{< gallery >}}
 <img src="/images/about/catania-university/1.jpg" alt="Università Catania 1">
@@ -21,11 +27,14 @@ All'Università di Catania ho scoperto l'informatica. Più che imparare a progra
 <img src="/images/about/catania-university/4.jpg" alt="Università Catania Laurea">
 {{< /gallery >}}
 
-## Il Capitolo Romano: Master, Stage e Primo Lavoro Full-Time
+## Il capitolo romano: Master of Science, stage e primo ruolo da Data Scientist
 
-Dopo aver completato la mia Laurea Triennale, mi sono trasferito a Roma per il Master in Data Science presso Sapienza. Roma rappresentava un nuovo capitolo—più indipendenza, più possibilità e la mia prima vera esposizione agli ambienti professionali. Durante questi anni ho completato i miei primi due stage qui, tuffandomi in veri problemi di data science e imparando come fare la transizione dalla teoria alla pratica, comunicando gli insight agli stakeholder e navigando le complessità del machine learning applicato nel contesto aziendale.
+Roma ha rappresentato un passaggio chiaro: maggiore indipendenza, nuove responsabilità e il primo contatto continuativo con contesti professionali.
 
-La mia prima seria posizione full-time è arrivata anche a Roma presso Allianz SE, dove ho lavorato come Pricing Analyst e Applied Data Scientist. Questo è stato trasformativo—passare da lavori basati su progetti a possedere modelli in produzione, gestire le aspettative degli stakeholder e contribuire a decisioni strategiche aziendali. Qui ho imparato la differenza tra costruire un modello e costruire un modello che crea valore reale.
+Durante il Master ho svolto la tesi attraverso un tirocinio professionale, lavorando su problemi di data science applicata legati a casi d’uso reali. Dopo la laurea ho intrapreso un secondo tirocinio, che mi ha permesso di consolidare ulteriormente le competenze pratiche e continuare a colmare la distanza tra formazione accademica e applicazioni concrete.
+
+Il mio primo ruolo strutturato da data scientist è arrivato anch’esso a Roma, con l’ingresso in Allianz SE tramite il processo di selezione del Talent Program. Ho lavorato come Pricing Analyst e Applied Data Scientist, contribuendo ad attività di analisi e modellazione all’interno di una grande organizzazione internazionale.
+Questa esperienza mi ha insegnato come la data science funzioni nella pratica in un contesto aziendale complesso: lavorare con diversi stakeholder, allineare il lavoro tecnico alle esigenze di business e comprendere come vengono prese decisioni su larga scala.
 
 {{< gallery >}}
 <img src="/images/about/rome-period/1.jpg" alt="Roma 1">
@@ -40,7 +49,10 @@ La mia prima seria posizione full-time è arrivata anche a Roma presso Allianz S
 
 ## Espansione e Talent Program: Master a Milano
 
-Perseguire il mio secondo Master presso il Politecnico di Milano mi ha introdotto ai big data su larga scala. Come parte di questo percorso, ho partecipato a un esclusivo talent program che ha accelerato la mia crescita nel machine learning e nella data engineering, esponendomi alle pratiche più all'avanguardia dell'industria e connettendomi con i principali professionisti tech. L'ecosistema tech di Milano era stimolante—un hub di innovazione dove ho affinato la mia competenza in tecniche avanzate e ho imparato a pensare più in grande, scalare più velocemente, e affrontare i problemi con più rigore e sofisticazione.
+Grazie al Talent Program ho avuto l’opportunità di intraprendere un Master di secondo livello in Big Data Science al Politecnico di Milano.
+Questa esperienza mi ha permesso di approfondire lo studio dei big data e del machine learning, continuando a costruire su una solida base tecnica.
+
+Un elemento centrale di questa fase è stato il confronto costante con colleghi provenienti da diverse linee di business dello stesso settore. Lavorare a contatto con persone con background differenti mi ha aiutato ad ampliare la mia prospettiva, affrontare i problemi da più punti di vista e comprendere meglio come i dati vengano utilizzati all’interno di organizzazioni complesse.
 
 {{< gallery >}}
 <img src="/images/about/milano/1.jpg" alt="Milano 1">
@@ -50,9 +62,12 @@ Perseguire il mio secondo Master presso il Politecnico di Milano mi ha introdott
 <img src="/images/about/milano/5.jpg" alt="Milano Duomo">
 {{< /gallery >}}
 
-## Capitolo Attuale: Londra e Allianz UK
+## Capitolo Attuale: Londra
 
-Ora con sede a Londra come Senior Pricing Analyst in Applied Analytics, ho assunto un ruolo più senior dove possiedo l'intero ciclo di vita dei modelli di machine learning utilizzati per guidare le decisioni operative. Londra mi ha insegnato prospettive internazionali, agilità nel navigare team diversi, e l'impatto di assumere una proprietà più ampia. Ogni giorno bilancio l'eccellenza tecnica con l'impatto aziendale, lavorando per garantire che i nostri modelli non solo si comportino bene—creino valore.
+Dopo aver concluso il Master e maturato una solida esperienza all’interno dell’azienda, ho sentito la necessità di uscire dalla mia zona di comfort e affrontare una nuova sfida.
+Ho colto l’opportunità di trasferirmi nell’ufficio di Londra come Senior Pricing Analyst, entrando in un contesto più ampio e internazionale e lavorando con team e dataset più diversificati.
+
+Questo passaggio mi ha permesso di ampliare la mia prospettiva, rafforzare le competenze analitiche in un ambiente globale e assumere maggiori responsabilità nel modo in cui dati e modelli vengono utilizzati a supporto delle decisioni quotidiane.
 
 {{< gallery >}}
 <img src="/images/about/london/1.jpg" alt="Londra 1">
@@ -63,4 +78,5 @@ Ora con sede a Londra come Senior Pricing Analyst in Applied Analytics, ho assun
 
 ---
 
-Questo percorso—da Catania a Roma a Milano a Londra—ha plasmato non solo le mie competenze tecniche ma la mia prospettiva sulla risoluzione dei problemi, la collaborazione e la crescita continua. Ogni città, ogni ruolo, ogni sfida ha aggiunto un altro strato a chi sono come data scientist e come persona.
+Il passaggio da Catania a Roma, la parentesi milanese e infine Londra mi ha chiarito una cosa: la crescita nasce spesso dall’uscire dalla propria zona di comfort.
+Ogni cambiamento di città e di contesto mi ha spinto ad adattarmi, assumermi maggiori responsabilità e guardare le sfide da prospettive nuove, influenzando il mio modo di affrontare i problemi e di continuare a imparare.
