@@ -43,3 +43,7 @@ Catania • Oct, 2017 - Nov, 2020
 - Thesis project for Master of Science in Data Science.
 - Developed deep learning models using neural networks for facial expression recognition via facial feature keypoints.
 - Implemented computer vision solutions for real-world applications.
+
+---
+
+If you'd like to receive a PDF copy of my CV, please reach out to me at matteo.dm@live.com
