@@ -18,6 +18,7 @@ All'Università di Catania ho scoperto l'informatica. Più che imparare a progra
 <img src="/images/about/catania-university/1.jpg" alt="Università Catania 1">
 <img src="/images/about/catania-university/2.jpg" alt="Università Catania 2">
 <img src="/images/about/catania-university/3.jpg" alt="Università Catania 3">
+<img src="/images/about/catania-university/4.jpg" alt="Università Catania Laurea">
 {{< /gallery >}}
 
 ## Il Capitolo Romano: Master, Stage e Primo Lavoro Full-Time
@@ -30,6 +31,7 @@ La mia prima seria posizione full-time è arrivata anche a Roma presso Allianz S
 <img src="/images/about/rome-period/1.jpg" alt="Roma 1">
 <img src="/images/about/rome-period/2.jpg" alt="Roma 2">
 <img src="/images/about/rome-period/3.jpg" alt="Roma 3">
+<img src="/images/about/rome-period/4.jpg" alt="Roma Laurea">
 <img src="/images/about/allianz-rome/1.jpg" alt="Allianz Roma 1">
 <img src="/images/about/allianz-rome/2.jpg" alt="Allianz Roma 2">
 <img src="/images/about/allianz-rome/3.jpg" alt="Allianz Roma 3">
@@ -43,6 +45,8 @@ Perseguire il mio secondo Master presso il Politecnico di Milano mi ha introdott
 <img src="/images/about/milano/1.jpg" alt="Milano 1">
 <img src="/images/about/milano/2.jpg" alt="Milano 2">
 <img src="/images/about/milano/3.jpg" alt="Milano 3">
+<img src="/images/about/milano/4.jpg" alt="Milano Unicredit">
+<img src="/images/about/milano/5.jpg" alt="Milano Duomo">
 {{< /gallery >}}
 
 ## Capitolo Attuale: Londra e Allianz UK
