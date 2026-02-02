@@ -18,7 +18,6 @@ At the University of Catania, I discovered computer science. More than just lear
 <img src="/images/about/catania-university/1.jpg" alt="Catania University 1">
 <img src="/images/about/catania-university/2.jpg" alt="Catania University 2">
 <img src="/images/about/catania-university/3.jpg" alt="Catania University 3">
-<img src="/images/about/catania-university/laurea-covid.jpg" alt="Catania University Graduation Covid">
 {{< /gallery >}}
 
 ## The Rome Chapter: Masters, Internships & First Full-Time Role
@@ -31,7 +30,6 @@ My first serious full-time position also came in Rome at Allianz SE, where I wor
 <img src="/images/about/rome-period/1.jpg" alt="Rome Period 1">
 <img src="/images/about/rome-period/2.jpg" alt="Rome Period 2">
 <img src="/images/about/rome-period/3.jpg" alt="Rome Period 3">
-<img src="/images/about/rome-period/io_laurea.jpg" alt="Rome Graduation">
 <img src="/images/about/allianz-rome/1.jpg" alt="Allianz Rome 1">
 <img src="/images/about/allianz-rome/2.jpg" alt="Allianz Rome 2">
 <img src="/images/about/allianz-rome/3.jpg" alt="Allianz Rome 3">
