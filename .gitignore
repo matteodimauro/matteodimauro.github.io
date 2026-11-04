@@ -16,3 +16,15 @@ content/images/about/london/
 # OS / editor
 .DS_Store
 .vscode/
+
+# Original personal photos: local only (full resolution, with GPS coordinates in EXIF; the repo is public).
+# The site publishes only the optimised .webp versions in static/images/.
+/Catania/
+/Roma/
+/Milano/
+/Londra/
+static/**/*.jpg
+static/**/*.jpeg
+static/**/*.JPG
+static/**/*.heic
+static/**/*.HEIC

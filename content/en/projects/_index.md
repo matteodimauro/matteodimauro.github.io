@@ -1,4 +1,5 @@
 ---
+aliases: ["/en/projects/"]
 title: "Projects"
 description: "A selection of things I've built."
 groupByYear: "false"

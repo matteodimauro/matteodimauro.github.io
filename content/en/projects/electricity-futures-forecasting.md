@@ -1,4 +1,5 @@
 ---
+aliases: ["/en/projects/electricity-futures-forecasting/"]
 title: "Electricity Futures Forecasting"
 summary: "Forecast spot and futures electricity prices using ML and DL models."
 draft: false

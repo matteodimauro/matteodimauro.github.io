@@ -1,4 +1,5 @@
 ---
+aliases: ["/en/about/"]
 title: "About me"
 description: "Matteo Di Mauro’s journey in data science, pricing and analytics across Catania, Rome, Milan and London."
 ---

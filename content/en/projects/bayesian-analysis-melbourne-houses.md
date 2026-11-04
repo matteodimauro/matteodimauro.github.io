@@ -1,4 +1,5 @@
 ---
+aliases: ["/en/projects/bayesian-analysis-melbourne-houses/"]
 title: "Full Bayesian Analysis - SDS2 Final Project"
 summary: "Bayesian prediction of house prices in Melbourne using GLMs."
 draft: false

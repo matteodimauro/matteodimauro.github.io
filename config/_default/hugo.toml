@@ -1,3 +1,21 @@
 baseURL = "https://matteodimauro.github.io/"
 title = "Matteo Di Mauro"
 enableRobotsTXT = true
+
+# --- Indexing ---
+# Accurate <lastmod> in the sitemap, taken from the last commit of each file.
+enableGitInfo = true
+# No empty tags/categories pages in the sitemap.
+disableKinds = ["taxonomy", "term"]
+[pagination]
+  # No duplicate /projects/page/1/ redirect page.
+  disableAliases = true
+
+# --- Security ---
+# Original photos (JPG/HEIC) contain GPS coordinates: never publish them.
+# Only the .webp versions in static/images/ go online.
+[module]
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+    excludeFiles = ["**/*.jpg", "**/*.jpeg", "**/*.JPG", "**/*.heic", "**/*.HEIC", "**/.DS_Store"]

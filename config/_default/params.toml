@@ -4,6 +4,11 @@ autoSwitchAppearance = true
 showLanguageSwitcher = true
 enableSearch = false
 
+# --- Speed ---
+# The zoom library was loaded render-blocking on every page, while the gallery disabled it anyway.
+disableImageZoom = true
+
+
 [article]
 showDate = false
 showDateUpdated = false
@@ -18,3 +23,20 @@ groupByYear = false
 [footer]
 showCopyright = false
 showThemeAttribution = false
+
+# --- Indexing: structured data (layouts/partials/schema.html), not shown on the page ---
+# Facts taken from the CV. sameAs = your profiles elsewhere (e.g. add LinkedIn here).
+[person]
+name = "Matteo Di Mauro"
+jobTitle = "Senior Pricing Analyst - Applied Analytics"
+worksFor = "Allianz UK"
+locality = "London"
+country = "GB"
+alumniOf = ["Politecnico di Milano", "Sapienza University of Rome", "University of Catania"]
+sameAs = ["https://www.linkedin.com/in/matteo-di-mauro-926773150/", "https://github.com/matteodimauro"]
+
+# --- Indexing: search engine verification ---
+# Google Search Console -> "HTML tag" method -> paste only the content="..." value.
+[verification]
+# google = ""
+# bing = ""

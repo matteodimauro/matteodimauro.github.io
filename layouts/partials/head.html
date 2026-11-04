@@ -1,5 +1,9 @@
 <head>
   <meta charset="utf-8">
+  {{/* Security: only first-party scripts may run (no inline JS, no third-party code).
+    If you add an external service (analytics, embeds, fonts...), add its domain here. */}}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   {{ with .Site.Language.Params.htmlCode | default .Site.LanguageCode }}
     <meta http-equiv="content-language" content="{{ . }}">
   {{ end }}
@@ -29,7 +33,20 @@
   {{ with .Params.robots }}
     <meta name="robots" content="{{ . }}">
   {{ end }}
-  <link rel="canonical" href="{{ .Permalink }}">
+  {{ if eq .Kind "404" }}
+    <meta name="robots" content="noindex">
+  {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{/* hreflang: tells Google the EN and IT pages are translations of each other */}}
+    {{ if .IsTranslated }}
+      {{ range .AllTranslations }}
+        <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+      {{ end }}
+      {{ with index .AllTranslations 0 }}
+        <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+      {{ end }}
+    {{ end }}
+  {{ end }}
   {{ range .AlternativeOutputFormats }}
     {{ printf `
       <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink ($.Site.Title | emojify) |
@@ -38,8 +55,11 @@
   {{ end }}
 
   {{/* Me */}}
-  {{ with .Site.Params.Author.name }}
+  {{ with .Site.Params.Author.name | default site.Params.person.name }}
     <meta name="author" content="{{ . }}">
+  {{ end }}
+  {{ range site.Params.person.sameAs }}
+    <link href="{{ . }}" rel="me">
   {{ end }}
   {{ with .Site.Params.Author.links }}
     {{ range $links := . }}
@@ -234,5 +254,4 @@
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}"
       crossorigin="anonymous"></script>
   {{ end }}
-<link rel="stylesheet" href="/css/gallery-custom.css">
 </head>

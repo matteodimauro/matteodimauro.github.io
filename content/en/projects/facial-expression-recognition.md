@@ -1,4 +1,5 @@
 ---
+aliases: ["/en/projects/facial-expression-recognition/"]
 title: "Facial Expression Recognition Thesis"
 summary: "MSc thesis on facial expression recognition for Engineering S.p.A."
 draft: false

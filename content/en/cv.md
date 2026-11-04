@@ -1,5 +1,7 @@
 ---
+aliases: ["/en/cv/"]
 title: "CV"
+description: "Matteo Di Mauro’s CV: Senior Pricing Analyst at Allianz UK in London. Machine learning for pricing; studied at Catania, Sapienza and Politecnico di Milano."
 ---
 
 ## Education
@@ -8,7 +10,7 @@ title: "CV"
 Milano • Oct, 2023 - Sept, 2025
 
 **Sapienza** — Master of Science in Data Science  
-Rome • Dec, 2020 - Sept, 2025
+Rome • Dec, 2020 - Sept, 2022
 
 **University of Catania** — Computer Science Bachelor of Science  
 Catania • Oct, 2017 - Nov, 2020

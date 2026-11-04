@@ -1,4 +1,5 @@
 ---
+aliases: ["/en/projects/telegram-chat-bot/"]
 title: "Telegram Chat Bot"
 summary: "Interactive Telegram bot built with Python."
 draft: false

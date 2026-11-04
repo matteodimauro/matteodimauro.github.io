@@ -1,0 +1,62 @@
+{{- /*
+  Structured data (JSON-LD) for search engines. Not visible on the page.
+  One Person entity (same @id in every language) that Google can tie to your name,
+  the WebSite, and the current page pointing to them.
+  Data comes only from [person] in config/_default/params.toml.
+*/ -}}
+{{- if ne .Kind "404" -}}
+{{- $root := "/" | absURL -}}
+{{- $personID := printf "%s#person" $root -}}
+{{- $websiteID := printf "%s#website" $root -}}
+{{- $p := site.Params.person -}}
+
+{{- $person := dict "@type" "Person" "@id" $personID "name" ($p.name | default site.Title) "url" $root -}}
+{{- with $p.jobTitle -}}{{- $person = merge $person (dict "jobTitle" .) -}}{{- end -}}
+{{- with $p.sameAs -}}{{- $person = merge $person (dict "sameAs" .) -}}{{- end -}}
+{{- with $p.worksFor -}}
+  {{- $person = merge $person (dict "worksFor" (dict "@type" "Organization" "name" .)) -}}
+{{- end -}}
+{{- with $p.locality -}}
+  {{- $person = merge $person (dict "address" (dict "@type" "PostalAddress" "addressLocality" . "addressCountry" $p.country)) -}}
+{{- end -}}
+{{- with $p.alumniOf -}}
+  {{- $schools := slice -}}
+  {{- range . -}}{{- $schools = $schools | append (dict "@type" "CollegeOrUniversity" "name" .) -}}{{- end -}}
+  {{- $person = merge $person (dict "alumniOf" $schools) -}}
+{{- end -}}
+
+{{- $website := dict "@type" "WebSite" "@id" $websiteID "url" $root "name" site.Title "publisher" (dict "@id" $personID) -}}
+
+{{- $pageType := "WebPage" -}}
+{{- $isAbout := and .File (eq .File.ContentBaseName "about") -}}
+{{- if .IsHome -}}
+  {{- $pageType = "ProfilePage" -}}
+{{- else if $isAbout -}}
+  {{- $pageType = "AboutPage" -}}
+{{- else if .IsSection -}}
+  {{- $pageType = "CollectionPage" -}}
+{{- end -}}
+
+{{- $page := dict
+  "@type" $pageType
+  "@id" .Permalink
+  "url" .Permalink
+  "name" (cond .IsHome site.Title .Title)
+  "inLanguage" .Language.Lang
+  "isPartOf" (dict "@id" $websiteID)
+-}}
+{{- with .Params.summary | default .Params.description -}}
+  {{- $page = merge $page (dict "description" (. | plainify)) -}}
+{{- end -}}
+{{- if or .IsHome $isAbout -}}
+  {{- $page = merge $page (dict "mainEntity" (dict "@id" $personID)) -}}
+{{- else -}}
+  {{- $page = merge $page (dict "author" (dict "@id" $personID)) -}}
+{{- end -}}
+{{- if not .Lastmod.IsZero -}}
+  {{- $page = merge $page (dict "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}
+{{- end -}}
+
+{{- $graph := dict "@context" "https://schema.org" "@graph" (slice $person $website $page) }}
+<script type="application/ld+json">{{ $graph | jsonify | safeJS }}</script>
+{{- end -}}

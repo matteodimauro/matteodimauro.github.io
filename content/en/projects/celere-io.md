@@ -1,4 +1,5 @@
 ---
+aliases: ["/en/projects/celere-io/"]
 title: "celere.io"
 summary: "Digital queue management app with QR codes and real-time updates."
 draft: false

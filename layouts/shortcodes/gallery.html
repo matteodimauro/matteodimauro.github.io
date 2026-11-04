@@ -1,3 +1,10 @@
+{{- /*
+  CSS-grid photo gallery (no JavaScript).
+  The first gallery on a page loads eagerly (it can be above the fold);
+  the others are lazy-loaded so they only download when scrolled into view.
+*/ -}}
+{{- $loading := cond (eq .Ordinal 0) "eager" "lazy" -}}
+{{- $attrs := printf `<img loading="%s" decoding="async" ` $loading -}}
 <div class="gallery">
-  {{ .Inner | safeHTML }}
+  {{ replace .Inner "<img " $attrs | safeHTML }}
 </div>
