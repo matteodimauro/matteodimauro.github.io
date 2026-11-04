@@ -1,10 +1,11 @@
 ---
 title: "Chi sono"
+description: "Il percorso di Matteo Di Mauro: data science, pricing e analisi dei dati tra Catania, Roma, Milano e Londra."
 ---
 
 Sono un data scientist orientato al problem solving.
 Lavoro con dati e analisi per supportare decisioni reali, non solo per costruire modelli.
-Mi interessa più l’utilità che l’eleganza.
+Dai dati alle decisioni che contano.
 
 ---
 
@@ -14,10 +15,10 @@ Sono nato e cresciuto a Catania, in Sicilia.
 Crescere lì ha influenzato la mia curiosità per il funzionamento delle cose e il mio modo di affrontare i problemi, passo dopo passo.
 È lì che mi sono avvicinato per la prima volta ai computer, un interesse che si è poi trasformato in una scelta chiara: iscrivermi al corso di laurea in Informatica all’Università di Catania.
 {{< gallery >}}
-<img src="/images/about/catania/IMG_7588.jpg" alt="Catania 1">
-<img src="/images/about/catania/IMG_7589.jpg" alt="Catania 2">
-<img src="/images/about/catania/etna_da_mare.jpg" alt="Etna dal mare">
-<img src="/images/about/catania/IMG_7294.jpg" alt="Catania 3">
+<img src="/images/about/catania/IMG_7588.webp" alt="Catania 1">
+<img src="/images/about/catania/IMG_7589.webp" alt="Catania 2">
+<img src="/images/about/catania/etna_da_mare.webp" alt="Etna dal mare">
+<img src="/images/about/catania/IMG_7294.webp" alt="Catania 3">
 {{< /gallery >}}
 ## I Miei Inizi: Università di Catania
 
@@ -26,10 +27,10 @@ Quegli anni sono stati dedicati alla costruzione delle basi: imparare a ragionar
 Gli studi su strutture dati, algoritmi e fondamenti della programmazione hanno plasmato il modo in cui affronto ancora oggi i problemi tecnici.
 
 {{< gallery >}}
-<img src="/images/about/catania-university/1.jpg" alt="Università Catania 1">
-<img src="/images/about/catania-university/2.jpg" alt="Università Catania 2">
-<img src="/images/about/catania-university/3.jpg" alt="Università Catania 3">
-<img src="/images/about/catania-university/4.jpg" alt="Università Catania Laurea">
+<img src="/images/about/catania-university/1.webp" alt="Università Catania 1">
+<img src="/images/about/catania-university/2.webp" alt="Università Catania 2">
+<img src="/images/about/catania-university/3.webp" alt="Università Catania 3">
+<img src="/images/about/catania-university/4.webp" alt="Università Catania Laurea">
 {{< /gallery >}}
 
 ## Il capitolo romano: Master of Science, stage e primo ruolo da Data Scientist
@@ -42,14 +43,14 @@ Il mio primo ruolo strutturato da data scientist è arrivato anch’esso a Roma,
 Questa esperienza mi ha insegnato come la data science funzioni nella pratica in un contesto aziendale complesso: lavorare con diversi stakeholder, allineare il lavoro tecnico alle esigenze di business e comprendere come vengono prese decisioni su larga scala.
 
 {{< gallery >}}
-<img src="/images/about/rome-period/1.jpg" alt="Roma 1">
-<img src="/images/about/rome-period/2.jpg" alt="Roma 2">
-<img src="/images/about/rome-period/3.jpg" alt="Roma 3">
-<img src="/images/about/rome-period/4.jpg" alt="Roma Laurea">
-<img src="/images/about/rome-period/5.jpg" alt="Roma 5">
-<img src="/images/about/allianz-rome/1.jpg" alt="Allianz Roma 1">
-<img src="/images/about/allianz-rome/2.jpg" alt="Allianz Roma 2">
-<img src="/images/about/allianz-rome/3.jpg" alt="Allianz Roma 3">
+<img src="/images/about/rome-period/1.webp" alt="Roma 1">
+<img src="/images/about/rome-period/2.webp" alt="Roma 2">
+<img src="/images/about/rome-period/3.webp" alt="Roma 3">
+<img src="/images/about/rome-period/4.webp" alt="Roma Laurea">
+<img src="/images/about/rome-period/5.webp" alt="Roma 5">
+<img src="/images/about/allianz-rome/1.webp" alt="Allianz Roma 1">
+<img src="/images/about/allianz-rome/2.webp" alt="Allianz Roma 2">
+<img src="/images/about/allianz-rome/3.webp" alt="Allianz Roma 3">
 {{< /gallery >}}
 
 ## Espansione e Talent Program: Master a Milano
@@ -60,11 +61,11 @@ Questa esperienza mi ha permesso di approfondire lo studio dei big data e del ma
 Un elemento centrale di questa fase è stato il confronto costante con colleghi provenienti da diverse linee di business dello stesso settore. Lavorare a contatto con persone con background differenti mi ha aiutato ad ampliare la mia prospettiva, affrontare i problemi da più punti di vista e comprendere meglio come i dati vengano utilizzati all’interno di organizzazioni complesse.
 
 {{< gallery >}}
-<img src="/images/about/milano/1.jpg" alt="Milano 1">
-<img src="/images/about/milano/2.jpg" alt="Milano 2">
-<img src="/images/about/milano/3.jpg" alt="Milano 3">
-<img src="/images/about/milano/4.jpg" alt="Milano Unicredit">
-<img src="/images/about/milano/5.jpg" alt="Milano Duomo">
+<img src="/images/about/milano/1.webp" alt="Milano 1">
+<img src="/images/about/milano/2.webp" alt="Milano 2">
+<img src="/images/about/milano/3.webp" alt="Milano 3">
+<img src="/images/about/milano/4.webp" alt="Milano Unicredit">
+<img src="/images/about/milano/5.webp" alt="Milano Duomo">
 {{< /gallery >}}
 
 ## Capitolo Attuale: Londra
@@ -75,10 +76,10 @@ Ho colto l’opportunità di trasferirmi nell’ufficio di Londra come Senior Pr
 Questo passaggio mi ha permesso di ampliare la mia prospettiva, rafforzare le competenze analitiche in un ambiente globale e assumere maggiori responsabilità nel modo in cui dati e modelli vengono utilizzati a supporto delle decisioni quotidiane.
 
 {{< gallery >}}
-<img src="/images/about/london/1.jpg" alt="Londra 1">
-<img src="/images/about/london/2.jpg" alt="Londra 2">
-<img src="/images/about/london/3.jpg" alt="Londra 3">
-<img src="/images/about/london/4.jpg" alt="Londra 4">
+<img src="/images/about/london/1.webp" alt="Londra 1">
+<img src="/images/about/london/2.webp" alt="Londra 2">
+<img src="/images/about/london/3.webp" alt="Londra 3">
+<img src="/images/about/london/4.webp" alt="Londra 4">
 {{< /gallery >}}
 
 ---

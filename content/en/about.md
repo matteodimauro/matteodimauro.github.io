@@ -1,10 +1,11 @@
 ---
 title: "About me"
+description: "Matteo Di Mauro’s journey in data science, pricing and analytics across Catania, Rome, Milan and London."
 ---
 
 I’m a data scientist focused on problem solving.
 I work with data and analytics to support real decisions, not just to build models.
-I care about usefulness more than elegance.
+From data to decisions that matter.
 
 ---
 
@@ -14,10 +15,10 @@ I was born and raised in Catania, Sicily.
 Growing up there shaped my curiosity about how things work and my way of approaching problems step by step.
 It’s where I first got into computers, an interest that later turned into a clear decision: studying Computer Science at the University of Catania.
 {{< gallery >}}
-<img src="/images/about/catania/IMG_7588.jpg" alt="Catania 1">
-<img src="/images/about/catania/IMG_7589.jpg" alt="Catania 2">
-<img src="/images/about/catania/etna_da_mare.jpg" alt="Etna from the sea">
-<img src="/images/about/catania/IMG_7294.jpg" alt="Catania 3">
+<img src="/images/about/catania/IMG_7588.webp" alt="Catania 1">
+<img src="/images/about/catania/IMG_7589.webp" alt="Catania 2">
+<img src="/images/about/catania/etna_da_mare.webp" alt="Etna from the sea">
+<img src="/images/about/catania/IMG_7294.webp" alt="Catania 3">
 {{< /gallery >}}
 ## First Steps: University of Catania
 
@@ -26,10 +27,10 @@ Those years were about building foundations: learning how to think algorithmical
 Courses on data structures, algorithms and programming fundamentals shaped the way I still approach technical problems today.
 
 {{< gallery >}}
-<img src="/images/about/catania-university/1.jpg" alt="Catania University 1">
-<img src="/images/about/catania-university/2.jpg" alt="Catania University 2">
-<img src="/images/about/catania-university/3.jpg" alt="Catania University 3">
-<img src="/images/about/catania-university/4.jpg" alt="Catania University Graduation">
+<img src="/images/about/catania-university/1.webp" alt="Catania University 1">
+<img src="/images/about/catania-university/2.webp" alt="Catania University 2">
+<img src="/images/about/catania-university/3.webp" alt="Catania University 3">
+<img src="/images/about/catania-university/4.webp" alt="Catania University Graduation">
 {{< /gallery >}}
 
 ## The Roman chapter: Master of Science, internships and my first role as a Data Scientist
@@ -42,14 +43,14 @@ My first structured role as a data scientist also came in Rome, through my entry
 This experience taught me how data science operates in practice inside a complex corporate environment: working with multiple stakeholders, aligning technical work with business needs, and understanding how decisions are made at scale.
 
 {{< gallery >}}
-<img src="/images/about/rome-period/1.jpg" alt="Rome Period 1">
-<img src="/images/about/rome-period/2.jpg" alt="Rome Period 2">
-<img src="/images/about/rome-period/3.jpg" alt="Rome Period 3">
-<img src="/images/about/rome-period/4.jpg" alt="Rome Graduation">
-<img src="/images/about/rome-period/5.jpg" alt="Rome Period 5">
-<img src="/images/about/allianz-rome/1.jpg" alt="Allianz Rome 1">
-<img src="/images/about/allianz-rome/2.jpg" alt="Allianz Rome 2">
-<img src="/images/about/allianz-rome/3.jpg" alt="Allianz Rome 3">
+<img src="/images/about/rome-period/1.webp" alt="Rome Period 1">
+<img src="/images/about/rome-period/2.webp" alt="Rome Period 2">
+<img src="/images/about/rome-period/3.webp" alt="Rome Period 3">
+<img src="/images/about/rome-period/4.webp" alt="Rome Graduation">
+<img src="/images/about/rome-period/5.webp" alt="Rome Period 5">
+<img src="/images/about/allianz-rome/1.webp" alt="Allianz Rome 1">
+<img src="/images/about/allianz-rome/2.webp" alt="Allianz Rome 2">
+<img src="/images/about/allianz-rome/3.webp" alt="Allianz Rome 3">
 {{< /gallery >}}
 
 ## Expansion & Talent Program: Master's in Milano
@@ -60,11 +61,11 @@ This experience allowed me to deepen my knowledge of big data and machine learni
 A key part of this phase was the constant exchange with colleagues coming from different lines of business within the same industry. Working alongside people with diverse backgrounds helped me broaden my perspective, approach problems from multiple angles, and better understand how data is used across complex organizations.
 
 {{< gallery >}}
-<img src="/images/about/milano/1.jpg" alt="Milano 1">
-<img src="/images/about/milano/2.jpg" alt="Milano 2">
-<img src="/images/about/milano/3.jpg" alt="Milano 3">
-<img src="/images/about/milano/4.jpg" alt="Milano Unicredit">
-<img src="/images/about/milano/5.jpg" alt="Milano Duomo">
+<img src="/images/about/milano/1.webp" alt="Milano 1">
+<img src="/images/about/milano/2.webp" alt="Milano 2">
+<img src="/images/about/milano/3.webp" alt="Milano 3">
+<img src="/images/about/milano/4.webp" alt="Milano Unicredit">
+<img src="/images/about/milano/5.webp" alt="Milano Duomo">
 {{< /gallery >}}
 
 ## Current Chapter: London
@@ -75,10 +76,10 @@ I took the opportunity to move to the London office as a Senior Pricing Analyst,
 This transition allowed me to expand my perspective, strengthen my analytical skills in a global environment, and take on greater responsibility in how data and models are used to support day-to-day decisions.
 
 {{< gallery >}}
-<img src="/images/about/london/1.jpg" alt="London 1">
-<img src="/images/about/london/2.jpg" alt="London 2">
-<img src="/images/about/london/3.jpg" alt="London 3">
-<img src="/images/about/london/4.jpg" alt="London 4">
+<img src="/images/about/london/1.webp" alt="London 1">
+<img src="/images/about/london/2.webp" alt="London 2">
+<img src="/images/about/london/3.webp" alt="London 3">
+<img src="/images/about/london/4.webp" alt="London 4">
 {{< /gallery >}}
 
 ---
