@@ -1,0 +1,4 @@
+{{/* Theme hook (article-link/simple.html): in the Ventures list, show role and launch year under the title. */}}
+{{ with .Params.venture }}
+  <p class="venture-line">{{ .role }}{{ with .launched }} · {{ . }}{{ end }}</p>
+{{ end }}

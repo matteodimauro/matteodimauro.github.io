@@ -1,9 +1,15 @@
 ---
-aliases: ["/en/projects/celere-io/"]
+aliases: ["/en/projects/celere-io/", "/projects/celere-io/"]
 title: "celere.io"
 summary: "Digital queue management app with QR codes and real-time updates."
 draft: false
 weight: 1
+venture:
+  role: "Founder & developer"
+  roleDetail: "Built entirely by me, from idea to launch: product, design and development."
+  launched: "2026"
+  status: "Live on App Store, Google Play and web"
+  website: "https://celere.io"
 ---
 
 **celere.io** is a platform to organize real queues with a simple, fast, and trackable system.

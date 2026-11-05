@@ -1,0 +1,29 @@
+{{/* Ventures: role, launch year, status and website from the "venture" front matter, under the page title. */}}
+{{ with .Params.venture }}
+  <dl class="venture-facts">
+    {{ with .role }}
+      <div>
+        <dt>{{ i18n "venture_role" }}</dt>
+        <dd><strong>{{ . }}</strong>{{ with $.Params.venture.roleDetail }}<br>{{ . }}{{ end }}</dd>
+      </div>
+    {{ end }}
+    {{ with .launched }}
+      <div>
+        <dt>{{ i18n "venture_launched" }}</dt>
+        <dd>{{ . }}</dd>
+      </div>
+    {{ end }}
+    {{ with .status }}
+      <div>
+        <dt>{{ i18n "venture_status" }}</dt>
+        <dd>{{ . }}</dd>
+      </div>
+    {{ end }}
+    {{ with .website }}
+      <div>
+        <dt>{{ i18n "venture_website" }}</dt>
+        <dd><a href="{{ . }}">{{ strings.TrimSuffix "/" (strings.TrimPrefix "https://" .) }}</a></dd>
+      </div>
+    {{ end }}
+  </dl>
+{{ end }}

@@ -89,3 +89,63 @@
     aspect-ratio: 4 / 3;
   }
 }
+
+/* Ventures: role / launch / status box under the title, and role line in the list */
+.venture-facts {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(var(--color-neutral-300), 1);
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(var(--color-neutral-700), 1);
+}
+.venture-facts > div {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 1rem;
+}
+.venture-facts dt {
+  color: rgba(var(--color-neutral-500), 1);
+}
+.venture-facts dd {
+  margin: 0;
+}
+.venture-facts a {
+  color: rgba(var(--color-primary-600), 1);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.dark .venture-facts a {
+  color: rgba(var(--color-primary-400), 1);
+}
+.venture-facts strong {
+  color: rgba(var(--color-neutral-900), 1);
+}
+.dark .venture-facts {
+  border-color: rgba(var(--color-neutral-600), 1);
+  color: rgba(var(--color-neutral-300), 1);
+}
+.dark .venture-facts dt {
+  color: rgba(var(--color-neutral-400), 1);
+}
+.dark .venture-facts strong {
+  color: rgba(var(--color-neutral-100), 1);
+}
+@media (max-width: 480px) {
+  .venture-facts > div {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+}
+.venture-line {
+  margin: 0.15rem 0 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(var(--color-neutral-500), 1);
+}
+.dark .venture-line {
+  color: rgba(var(--color-neutral-400), 1);
+}

@@ -24,6 +24,7 @@
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
       </div>
+      {{ partial "venture-facts.html" . }}
       {{ if not (.Params.showAuthorBottom | default (site.Params.article.showAuthorBottom | default false)) }}
         {{ template "SingleAuthor" . }}
       {{ end }}
@@ -71,11 +72,11 @@
     </section>
 
     {{/* Back to Projects Button - Add if this is a project */}}
-    {{ if eq .Section "projects" }}
+    {{ if in (slice "projects" "ventures") .Section }}
       <div class="mt-8 max-w-prose print:hidden">
         <a href="{{ .CurrentSection.RelPermalink }}" class="inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors duration-200 border border-neutral-400 dark:border-neutral-600">
           <span>←</span>
-          <span>{{ i18n "back_to_projects" }}</span>
+          <span>{{ i18n (printf "back_to_%s" .Section) }}</span>
         </a>
       </div>
     {{ end }}

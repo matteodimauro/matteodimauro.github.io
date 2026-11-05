@@ -1,8 +1,15 @@
 ---
+aliases: ["/projects/celere-io/"]
 title: "celere.io"
 summary: "App per la gestione delle code digitali con QR e aggiornamenti in tempo reale."
 draft: false
 weight: 1
+venture:
+  role: "Founder e sviluppatore"
+  roleDetail: "Realizzata interamente da me, dall'idea al lancio: prodotto, design e sviluppo."
+  launched: "2026"
+  status: "Disponibile su App Store, Google Play e web"
+  website: "https://celere.io"
 ---
 
 **celere.io** è una piattaforma per organizzare code reali con un sistema semplice, veloce e tracciabile.

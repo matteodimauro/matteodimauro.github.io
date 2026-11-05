@@ -9,6 +9,11 @@ pageRef = "cv"
 weight = 20
 
 [[main]]
+name = "Ventures"
+pageRef = "ventures"
+weight = 25
+
+[[main]]
 name = "Projects"
 pageRef = "projects"
 weight = 30
