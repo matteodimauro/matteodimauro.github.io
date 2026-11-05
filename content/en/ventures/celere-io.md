@@ -9,7 +9,7 @@ venture:
   roleDetail: "Built entirely by me, from idea to launch: product, design and development."
   launched: "2026"
   status: "Live on App Store, Google Play and web"
-  website: "https://celere.io"
+  website: "https://www.celere.io"
 ---
 
 **celere.io** is a platform to organize real queues with a simple, fast, and trackable system.
@@ -29,7 +29,7 @@ It reduces waiting times and helps coordinate access, check-ins, and customer se
 3. Position, status, and times are updated in real-time.
 4. If desired, the participant can transfer their position from the web area to the app.
 
-**Website:** [celere-io.web.app](https://celere-io.web.app/)
+**Website:** [www.celere.io](https://www.celere.io/)
 
 **Download the app:**
 - [App Store](https://apps.apple.com/it/app/celere-io/id6759132094)

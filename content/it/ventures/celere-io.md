@@ -9,7 +9,7 @@ venture:
   roleDetail: "Realizzata interamente da me, dall'idea al lancio: prodotto, design e sviluppo."
   launched: "2026"
   status: "Disponibile su App Store, Google Play e web"
-  website: "https://celere.io"
+  website: "https://www.celere.io"
 ---
 
 **celere.io** è una piattaforma per organizzare code reali con un sistema semplice, veloce e tracciabile.
@@ -29,7 +29,7 @@ Riduce le attese e aiuta a coordinare accessi, check-in e servizio clienti in te
 3. Posizione, stato e tempi vengono aggiornati in tempo reale.
 4. Se vuole, il partecipante trasferisce la posizione dall'area web all'app.
 
-**Sito web:** [celere-io.web.app](https://celere-io.web.app/)
+**Sito web:** [www.celere.io](https://www.celere.io/)
 
 **Scarica l'app:**
 - [App Store](https://apps.apple.com/it/app/celere-io/id6759132094)
