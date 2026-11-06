@@ -1,10 +1,44 @@
 {{- /*
-  CSS-grid photo gallery (no JavaScript).
-  The first gallery on a page loads eagerly (it can be above the fold);
-  the others are lazy-loaded so they only download when scrolled into view.
+  Gallery. The photos are written in the content as <img src="/images/..." alt="...">.
+  For each photo, at build time, from the same file:
+  - smaller copies (srcset + sizes): the browser downloads only the size it actually shows
+    (the grid cells are ~160-330px wide, the originals 640px);
+  - a tiny blurred preview, embedded in the page, visible immediately while the photo loads;
+  - width/height, async decoding, lazy loading (except the first gallery of the page).
+  If a photo can't be processed, it is output as written, as before.
 */ -}}
 {{- $loading := cond (eq .Ordinal 0) "eager" "lazy" -}}
-{{- $attrs := printf `<img loading="%s" decoding="async" ` $loading -}}
+{{- /* Cell width per breakpoint, from the .gallery grid in assets/css/custom.css (2/3/4 columns).
+     On 3x phones the slot is declared 2/3 smaller, so they get ~2x-density photos (no visible
+     difference at this size, about a third of the bytes). */ -}}
+{{- $sizes := "(max-width: 700px) and (min-resolution: 2.5dppx) calc(33.3vw - 19px), (max-width: 700px) calc(50vw - 28px), (max-width: 768px) 326px, (max-width: 1024px) 216px, 161px" -}}
 <div class="gallery">
-  {{ replace .Inner "<img " $attrs | safeHTML }}
+{{- range findRE `<img[^>]*>` .Inner }}
+  {{- $tag := . -}}
+  {{- $src := "" -}}
+  {{- with findRESubmatch `src="([^"]+)"` $tag }}{{ $src = index (index . 0) 1 }}{{ end -}}
+  {{- $alt := "" -}}
+  {{- with findRESubmatch `alt="([^"]*)"` $tag }}{{ $alt = index (index . 0) 1 }}{{ end -}}
+  {{- $res := "" -}}
+  {{- if $src }}{{ $res = resources.Get (strings.TrimPrefix "/" $src) }}{{ end -}}
+  {{- if $res -}}
+    {{- $srcset := slice -}}
+    {{- $fallback := $src -}}
+    {{- range slice 240 360 480 -}}
+      {{- if lt . $res.Width -}}
+        {{- $r := $res.Resize (printf "%dx webp q80" .) -}}
+        {{- $srcset = $srcset | append (printf "%s %dw" $r.RelPermalink .) -}}
+        {{- if eq . 360 }}{{ $fallback = $r.RelPermalink }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" $src $res.Width) -}}
+    {{- /* Blurred preview: 16px-wide copy inside an SVG blur filter (same technique as Next.js placeholder="blur"). */ -}}
+    {{- $lq := $res.Resize "16x webp q40" -}}
+    {{- $svg := printf `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 %d %d'><filter id='b' color-interpolation-filters='sRGB'><feGaussianBlur stdDeviation='20'/><feColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/><feFlood x='0' y='0' width='100%%' height='100%%'/><feComposite operator='out' in='s'/><feComposite in2='SourceGraphic'/><feGaussianBlur stdDeviation='20'/></filter><image width='100%%' height='100%%' x='0' y='0' preserveAspectRatio='none' style='filter: url(#b);' href='data:image/webp;base64,%s'/></svg>` (mul $lq.Width 40) (mul $lq.Height 40) ($lq.Content | base64Encode) -}}
+    {{- $svg = replace $svg "%" "%25" | replaceRE "<" "%3C" | replaceRE ">" "%3E" | replaceRE "#" "%23" -}}
+    {{- printf `<img src="%s" srcset="%s" sizes="%s" width="%d" height="%d" alt="%s" loading="%s" decoding="async" style="background-image:url(&quot;data:image/svg+xml;charset=utf-8,%s&quot;)">` $fallback (delimit $srcset ", ") $sizes $res.Width $res.Height $alt $loading $svg | safeHTML -}}
+  {{- else -}}
+    {{- replace $tag "<img " (printf `<img loading="%s" decoding="async" ` $loading) | safeHTML -}}
+  {{- end -}}
+{{- end }}
 </div>

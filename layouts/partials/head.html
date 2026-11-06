@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   {{/* Security: only first-party scripts may run (no inline JS, no third-party code).
     If you add an external service (analytics, embeds, fonts...), add its domain here. */}}
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'inline-speculation-rules'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   {{ with .Site.Language.Params.htmlCode | default .Site.LanguageCode }}
     <meta http-equiv="content-language" content="{{ . }}">
@@ -177,6 +177,7 @@
   {{ $jsResources = $jsResources | append (resources.Get "js/button-likes.js") }}
   {{ $jsResources = $jsResources | append (resources.Get "js/katex-render.js") }}
   {{ $jsResources = $jsResources | append (resources.Get "js/print-support.js") }}
+  {{ $jsResources = $jsResources | append (resources.Get "js/prefetch.js") }}
   {{ if $jsResources }}
     {{ $bundleJS := $jsResources | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $alg }}
     <script
@@ -188,6 +189,11 @@
       data-copy="{{ i18n "code.copy" }}"
       data-copied="{{ i18n "code.copied" }}"></script>
   {{ end }}
+
+  {{/* Speed: instant navigation (Chrome/Edge). Internal pages are fetched in advance, and fully
+       rendered in the background when the pointer rests on a link, so the click shows them at once.
+       Allowed by 'inline-speculation-rules' in the CSP above (this is not executable JavaScript). */}}
+  <script type="speculationrules">{"prefetch":[{"where":{"href_matches":"/*"},"eagerness":"eager"}],"prerender":[{"where":{"href_matches":"/*"},"eagerness":"moderate"}]}</script>
 
   {{/* Conditional loaded resources */}}
   {{ partial "vendor.html" . }}

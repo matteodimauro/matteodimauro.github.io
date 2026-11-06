@@ -19,3 +19,13 @@ disableKinds = ["taxonomy", "term"]
     source = "static"
     target = "static"
     excludeFiles = ["**/*.jpg", "**/*.jpeg", "**/*.JPG", "**/*.heic", "**/*.HEIC", "**/.DS_Store"]
+  # --- Speed ---
+  # The gallery photos are also visible to Hugo's image processing, so the gallery shortcode
+  # can generate smaller copies (srcset) and a tiny blurred preview of each photo at build time.
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
+    includeFiles = ["**/*.webp"]

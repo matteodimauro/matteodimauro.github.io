@@ -149,3 +149,29 @@
 .dark .venture-line {
   color: rgba(var(--color-neutral-400), 1);
 }
+
+/* --- Speed: perceived loading --- */
+/* Blurred preview of each gallery photo (set inline by the gallery shortcode), shown until the photo
+   is loaded and painted over it. Same crop as the photo. */
+.gallery img {
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+}
+
+/* Smooth cross-fade between pages instead of a hard reload (Chrome/Edge 126+, Safari 18.2+;
+   other browsers just navigate as before). */
+@view-transition {
+  navigation: auto;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 150ms;
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
